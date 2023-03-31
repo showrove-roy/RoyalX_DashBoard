@@ -91,6 +91,7 @@ a {
 .generalDropdown {
   height: 46px;
   background: #f1f0ff;
+  cursor: pointer;
 }
 .generalNum {
   color: var(--primaryColor);
