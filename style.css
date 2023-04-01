@@ -201,19 +201,17 @@ p {
   border-radius: 100%;
 }
 
-.iconCircleRed{
+.iconCircleRed {
   border: 1px solid #f73164;
 }
-.iconCircleViolet{
-  border: 1px solid #7366FF;
-
+.iconCircleViolet {
+  border: 1px solid #7366ff;
 }
-.iconCircleOrange{
-  border: 1px solid #FFAA05;
-
+.iconCircleOrange {
+  border: 1px solid #ffaa05;
 }
-.iconCircleGreen{
-  border: 1px solid #54BA4A;
+.iconCircleGreen {
+  border: 1px solid #54ba4a;
 }
 
 .itemNum {
@@ -226,6 +224,19 @@ p {
   color: var(--text100);
 }
 
-.iconIMG{
+.iconIMG {
   width: 100%;
+}
+
+.cartItem {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px;
+  width: 798.5px;
+  height: 468.19px;
+  background: #ffffff;
+  border: 1px solid #e6ebf1;
+  border-radius: 10px;
 }
