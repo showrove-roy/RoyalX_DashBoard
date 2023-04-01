@@ -225,3 +225,7 @@ p {
   font-size: 1rem;
   color: var(--text100);
 }
+
+.iconIMG{
+  width: 100%;
+}
