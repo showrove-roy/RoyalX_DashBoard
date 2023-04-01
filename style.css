@@ -117,8 +117,13 @@ a {
   font-size: 0.9rem;
   background: rgba(115, 102, 255, 0.1);
 }
-
-
+.lavel {
+  color: var(--secondaryColor);
+  font-family: var(--fntRoboto);
+  font-weight: 600;
+  font-size: 0.8rem;
+  background: var(--secondaryBGColor);
+}
 
 #sidebarManu {
   border-left: 2px rgba(82, 82, 108, 0.4) solid;
