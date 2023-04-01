@@ -44,6 +44,11 @@ a {
   text-decoration: none;
 }
 
+.fa-house,
+.fa-chevron-down {
+  color: var(--text300);
+}
+
 /* core structure  */
 .maxW {
   max-width: 1920px;
@@ -80,18 +85,30 @@ a {
   color: #52526c;
   text-transform: uppercase;
 }
+
+.generalDropdown {
+  height: 46px;
+  cursor: pointer;
+}
+.generalDropdown:hover {
+  background: #f1f0ff;
+}
+
 .sideBarItems {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.7px;
   text-align: left;
+  color: var(--text300);
+}
+.generalDropdown:hover .sideBarItems {
   color: #7366ff;
 }
-
-.generalDropdown {
-  height: 46px;
-  background: #f1f0ff;
-  cursor: pointer;
+.generalDropdown:hover .fa-chevron-down {
+  color: #7366ff;
+}
+.generalDropdown:hover .fa-house {
+  color: #7366ff;
 }
 .generalNum {
   color: var(--primaryColor);
@@ -100,10 +117,8 @@ a {
   font-size: 0.9rem;
   background: rgba(115, 102, 255, 0.1);
 }
-.fa-chevron-down,
-.fa-house {
-  color: var(--primaryColor);
-}
+
+
 
 #sidebarManu {
   border-left: 2px rgba(82, 82, 108, 0.4) solid;
