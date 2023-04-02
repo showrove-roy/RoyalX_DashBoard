@@ -232,10 +232,8 @@ p {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 1px;
+  padding: 1.5rem .5rem;
   width: 798.5px;
-  height: 468.19px;
   background: #ffffff;
   border: 1px solid #e6ebf1;
   border-radius: 10px;
