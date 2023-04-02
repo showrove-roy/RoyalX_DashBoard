@@ -608,14 +608,14 @@
                 <div class="d-flex justify-content-between mb-2">
                   <p class="w-75 itemNum fw-semibold">Orders</p>
                   <select
-                    class="form-select form-select-sm w-25"
+                    class="form-select form-select-sm w-25 text500"
                     aria-label=".form-select-sm example">
                     <option selected>This week</option>
                     <option value="1">This Month</option>
                     <option value="2">This Year</option>
                   </select>
                 </div>
-                <p class="itemNum fw-medium mb-3">82</p>
+                <p class="itemNum fw-medium mb-3 text100">82</p>
                 <canvas id="orderChart"></canvas>
               </div>
 
@@ -624,22 +624,254 @@
                 <div class="d-flex justify-content-between mb-2">
                   <p class="w-75 itemNum fw-semibold">Sales</p>
                   <select
-                    class="form-select form-select-sm w-25"
+                    class="form-select form-select-sm w-25 text500"
                     aria-label=".form-select-sm example">
                     <option selected>This week</option>
                     <option value="1">This Month</option>
                     <option value="2">This Year</option>
                   </select>
                 </div>
-                <p class="itemNum fw-medium mb-3">
+                <p class="itemNum fw-medium mb-3 text100">
                   $ <span>2,239,991.83</span>
                 </p>
                 <canvas id="salesChart"></canvas>
               </div>
             </div>
             <div class="row">
-              <div class="col cartItem me-2 mt-2">3</div>
-              <div class="col cartItem ms-2 mt-2">4</div>
+              <!-- Top sold products card -->
+              <div class="col cartItem me-2 mt-2">
+                <div class="d-flex justify-content-between mb-2">
+                  <p class="itemNum fw-semibold">Top sold products</p>
+                  <div class="d-flex">
+                    <select
+                      class="form-select form-select-sm me-1 text500"
+                      aria-label=".form-select-sm example">
+                      <option selected>5 / page</option>
+                      <option value="1">10 / page</option>
+                      <option value="2">20 / page</option>
+                    </select>
+                    <select
+                      class="form-select form-select-sm ms-1 text500"
+                      aria-label=".form-select-sm example">
+                      <option selected>This week</option>
+                      <option value="1">This Month</option>
+                      <option value="2">This Year</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- top products -->
+                <div class="mt-3">
+                  <div class="d-flex justify-content-between mb-3">
+                    <div class="d-flex w-50 align-items-center">
+                      <div class="imgCard40">
+                        <img
+                          class="img-fluid"
+                          src="/images/product.png"
+                          alt="" />
+                      </div>
+                      <p class="m-0 ms-1 text100 textS1 fw-medium">
+                        Watering Meals
+                      </p>
+                    </div>
+                    <div class="text-end">
+                      <p class="m-0 text600 textS1">Sales</p>
+                      <p class="m-0 text100 textS1">5</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-3">
+                    <div class="d-flex w-50 align-items-center">
+                      <div class="imgCard40">
+                        <img
+                          class="img-fluid"
+                          src="/images/product.png"
+                          alt="" />
+                      </div>
+                      <p class="m-0 ms-1 text100 textS1 fw-medium">
+                        Watering Meals
+                      </p>
+                    </div>
+                    <div class="text-end">
+                      <p class="m-0 text600 textS1">Sales</p>
+                      <p class="m-0 text100 textS1">5</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-3">
+                    <div class="d-flex w-50 align-items-center">
+                      <div class="imgCard40">
+                        <img
+                          class="img-fluid"
+                          src="/images/product.png"
+                          alt="" />
+                      </div>
+                      <p class="m-0 ms-1 text100 textS1 fw-medium">
+                        Watering Meals
+                      </p>
+                    </div>
+                    <div class="text-end">
+                      <p class="m-0 text600 textS1">Sales</p>
+                      <p class="m-0 text100 textS1">5</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-3">
+                    <div class="d-flex w-50 align-items-center">
+                      <div class="imgCard40">
+                        <img
+                          class="img-fluid"
+                          src="/images/product.png"
+                          alt="" />
+                      </div>
+                      <p class="m-0 ms-1 text100 textS1 fw-medium">
+                        Watering Meals
+                      </p>
+                    </div>
+                    <div class="text-end">
+                      <p class="m-0 text600 textS1">Sales</p>
+                      <p class="m-0 text100 textS1">5</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-3">
+                    <div class="d-flex w-50 align-items-center">
+                      <div class="imgCard40">
+                        <img
+                          class="img-fluid"
+                          src="/images/product.png"
+                          alt="" />
+                      </div>
+                      <p class="m-0 ms-1 text100 textS1 fw-medium">
+                        Watering Meals
+                      </p>
+                    </div>
+                    <div class="text-end">
+                      <p class="m-0 text600 textS1">Sales</p>
+                      <p class="m-0 text100 textS1">5</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Top customers card -->
+              <div class="col cartItem ms-2 mt-2">
+                <div class="d-flex justify-content-between mb-2">
+                  <p class="itemNum fw-semibold">Top customers</p>
+                  <div class="d-flex">
+                    <select
+                      class="form-select form-select-sm me-1 text500"
+                      aria-label=".form-select-sm example">
+                      <option selected>5 / page</option>
+                      <option value="1">10 / page</option>
+                      <option value="2">20 / page</option>
+                    </select>
+                    <select
+                      class="form-select form-select-sm ms-1 text500"
+                      aria-label=".form-select-sm example">
+                      <option selected>This week</option>
+                      <option value="1">This Month</option>
+                      <option value="2">This Year</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- customers -->
+                <div class="mt-3">
+                  <!-- single user card -->
+                  <div class="d-flex justify-content-between mb-3">
+                    <div class="d-flex w-50 align-items-center">
+                      <div class="imgCard40">
+                        <img class="img-fluid" src="/images/user.png" alt="" />
+                      </div>
+                      <div class="">
+                        <p class="m-0 ms-1 text100 textS1 fw-medium">
+                          Dennis Errikson
+                        </p>
+                        <p class="m-0 ms-1 text600 textS1">12345678</p>
+                      </div>
+                    </div>
+                    <div class="text-end">
+                      <p class="m-0 text600 textS1"><span>3</span> Orders</p>
+                      <p class="m-0 text100 textS1">
+                        $ <span>118,775.90</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-3">
+                    <div class="d-flex w-50 align-items-center">
+                      <div class="imgCard40">
+                        <img class="img-fluid" src="/images/user.png" alt="" />
+                      </div>
+                      <div class="">
+                        <p class="m-0 ms-1 text100 textS1 fw-medium">
+                          Dennis Errikson
+                        </p>
+                        <p class="m-0 ms-1 text600 textS1">12345678</p>
+                      </div>
+                    </div>
+                    <div class="text-end">
+                      <p class="m-0 text600 textS1"><span>3</span> Orders</p>
+                      <p class="m-0 text100 textS1">
+                        $ <span>118,775.90</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-3">
+                    <div class="d-flex w-50 align-items-center">
+                      <div class="imgCard40">
+                        <img class="img-fluid" src="/images/user.png" alt="" />
+                      </div>
+                      <div class="">
+                        <p class="m-0 ms-1 text100 textS1 fw-medium">
+                          Dennis Errikson
+                        </p>
+                        <p class="m-0 ms-1 text600 textS1">12345678</p>
+                      </div>
+                    </div>
+                    <div class="text-end">
+                      <p class="m-0 text600 textS1"><span>3</span> Orders</p>
+                      <p class="m-0 text100 textS1">
+                        $ <span>118,775.90</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-3">
+                    <div class="d-flex w-50 align-items-center">
+                      <div class="imgCard40">
+                        <img class="img-fluid" src="/images/user.png" alt="" />
+                      </div>
+                      <div class="">
+                        <p class="m-0 ms-1 text100 textS1 fw-medium">
+                          Dennis Errikson
+                        </p>
+                        <p class="m-0 ms-1 text600 textS1">12345678</p>
+                      </div>
+                    </div>
+                    <div class="text-end">
+                      <p class="m-0 text600 textS1"><span>3</span> Orders</p>
+                      <p class="m-0 text100 textS1">
+                        $ <span>118,775.90</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mb-3">
+                    <div class="d-flex w-50 align-items-center">
+                      <div class="imgCard40">
+                        <img class="img-fluid" src="/images/user.png" alt="" />
+                      </div>
+                      <div class="">
+                        <p class="m-0 ms-1 text100 textS1 fw-medium">
+                          Dennis Errikson
+                        </p>
+                        <p class="m-0 ms-1 text600 textS1">12345678</p>
+                      </div>
+                    </div>
+                    <div class="text-end">
+                      <p class="m-0 text600 textS1"><span>3</span> Orders</p>
+                      <p class="m-0 text100 textS1">
+                        $ <span>118,775.90</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -648,6 +880,10 @@
       </section>
     </main>
     <!-- Main Section end -->
+
+    <footer class="bg-white text-center py-3 my-5">
+      Copyright 2023 © Cuba theme by Royalx
+    </footer>
 
     <!-- Bootstrap cdn -->
     <script
