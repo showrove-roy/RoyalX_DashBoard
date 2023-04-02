@@ -27,7 +27,6 @@
 }
 
 body {
-  /* font-family: 'Roboto', sans-serif; */
   font-family: "Rubik", sans-serif;
   background: #f7f8f9;
 }
@@ -273,7 +272,7 @@ p {
   height: 40px;
   border-radius: 10px;
 }
-.imgCard40 img{
+.imgCard40 img {
   width: fit-content;
   overflow: hidden;
 }
