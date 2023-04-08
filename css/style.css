@@ -44,10 +44,7 @@ p {
   margin-bottom: 0.5rem;
 }
 
-.fa-house,
-.fa-chevron-down {
-  color: var(--text300);
-}
+/* set all icon color */
 i {
   color: var(--text300);
 }
