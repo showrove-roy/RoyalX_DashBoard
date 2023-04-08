@@ -1,4 +1,3 @@
-
 :root {
   --primaryColor: #7366ff;
   --secondaryColor: #ff3364;
@@ -47,6 +46,9 @@ p {
 
 .fa-house,
 .fa-chevron-down {
+  color: var(--text300);
+}
+i {
   color: var(--text300);
 }
 
