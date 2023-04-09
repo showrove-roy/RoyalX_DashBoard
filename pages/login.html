@@ -19,12 +19,11 @@
 
     <!-- css link -->
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/login.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg py-3">
+    <nav class="navbar navbar-expand-lg py-3 sticky-top">
       <div class="container-fluid maxW">
-
         <!-- logo -->
         <a class="navbar-brand m-0" href="/">
           <img src="/images/logo 1.png" class="img-fluid w-75" alt="" />
@@ -73,13 +72,47 @@
     </nav>
 
     <!-- Main section  -->
-    <main class="maxW d-flex pb-5 mb-5">
-        <h1>Hello world</h1>
+    <main class="maxW py-5 mt-xxl-5">
+      <section
+        class="d-flex justify-content-center align-items-center pt-lg-5 mt-xxl-5">
+        <div class="bg-white p-3 p-sm-5 shadow rounded-4">
+          <h3 class="text-center mb-4 fs-3 text100">Please Login</h3>
+          <form class="m-3">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                name="userEmail"
+                class="form-control w-100"
+                id="exampleInputEmail1" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                name="userPassword"
+                class="form-control"
+                id="exampleInputPassword1" />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                name="isRemember"
+                class="form-check-input"
+                id="exampleCheck1" />
+              <label class="form-check-label" for="exampleCheck1"
+                >Remember Me</label
+              >
+            </div>
+            <button type="submit" class="btn loginBTN">Login</button>
+          </form>
+        </div>
+      </section>
     </main>
-
-    <footer class="bg-white text-center py-lg-3 py-2 my-lg-3 mb-2">
-      Copyright 2023 © Cuba theme by Royalx
-    </footer>
 
     <!-- Bootstrap js link -->
     <script src="/js/bootstrap.min.js"></script>
