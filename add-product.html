@@ -19,6 +19,7 @@
     <!-- css link -->
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/leftsideBar.css" />
+    <link rel="stylesheet" href="/css/add-product.css" />
   </head>
   <body>
     <!-- NavBar start -->
@@ -926,7 +927,43 @@
       <!-- left side bar end -->
       <!-- right section -->
       <section class="rightSide ms-xl-3 mt-3 w-100">
-        
+        <h3 class="fs-4 text100">Add Products</h3>
+        <hr class="hrBrack w-100 mt-2 mb-4" />
+
+        <div class="">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="productName" class="form-label">Product Name</label>
+              <input type="text" class="form-control" id="productName" />
+            </div>
+            <div class="col-md-6">
+              <label for="productCategory" class="form-label">Product Category</label>
+              <input type="text" class="form-control" id="productCategory" />
+            </div>
+
+            <div class="col-md-6">
+              <label for="productPrice" class="form-label">Product Price</label>
+              <input type="number" class="form-control" id="productPrice" />
+            </div>
+            <div class="col-md-6">
+              <label for="productQuantity" class="form-label">Product Quantity</label>
+              <input type="number" class="form-control" id="productQuantity" />
+            </div>
+
+            <div class="col-md-6">
+              <label for="sellerName" class="form-label">Seller Name</label>
+              <input type="text" class="form-control" id="sellerName" />
+            </div>
+            <div class="col-md-6">
+              <label for="productImage" class="form-label">Product Photo</label>
+              <input type="file" class="form-control" id="productImage" accept="image/*" />
+            </div>
+            
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary" >Add Product</button>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
     <!-- Main Section end -->
