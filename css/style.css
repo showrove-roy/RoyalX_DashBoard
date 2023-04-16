@@ -121,7 +121,9 @@ i {
 /* make a custom color table had color */
 .tableHead{
   background: #f2f6fb;
-  /* background: var(--primaryColor); */
-  /* color: white; */
 }
 
+/* box shadow  */
+.boxShadow {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1) !important;
+}
