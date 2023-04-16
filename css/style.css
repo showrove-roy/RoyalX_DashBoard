@@ -49,6 +49,12 @@ i {
   color: var(--text300);
 }
 
+/* remove row padding */
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
 /* text color class */
 .text00 {
   color: var(--text00) !important;
@@ -70,6 +76,12 @@ i {
 }
 .text600 {
   color: rgba(114, 132, 154, 0.9) !important;
+}
+.textRed {
+  color: #FF6767 !important;
+}
+.textViolet {
+  color: #4153B3 !important;
 }
 
 /* text size  */
@@ -104,5 +116,12 @@ i {
 
 .navbar-toggler:focus{
   box-shadow:none
+}
+
+/* make a custom color table had color */
+.tableHead{
+  background: #f2f6fb;
+  /* background: var(--primaryColor); */
+  /* color: white; */
 }
 
